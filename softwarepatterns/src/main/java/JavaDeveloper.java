@@ -1,6 +1,5 @@
-public class JavaDeveloper {
-    public void writeJavaCode() {
-        System.out.println("JavaDeveloper writes Java code");
-
+public class JavaDeveloper implements Developer{
+    public void writeCode() {
+        System.out.println("Java developer writes java code");
     }
 }

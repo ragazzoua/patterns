@@ -1,5 +1,5 @@
-public class CppDeveloper {
-    public void writeCppCode() {
-        System.out.println("C++ Developer writes C++ code");
+public class CppDeveloper implements Developer{
+    public void writeCode() {
+        System.out.println("C++ developer writes c++ code");
     }
 }
