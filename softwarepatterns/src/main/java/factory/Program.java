@@ -2,8 +2,9 @@ package factory;
 
 public class Program {
     public static void main(String[] args) {
-        Developer javaDeveloper = new CppDeveloper();
+        DeveloperFactory developerFactory = new CppDeveloperFactory();
 
-        javaDeveloper.writeCode();
+        Developer developer = developerFactory.createDeveloper();
+        developer.writeCode();
     }
 }
