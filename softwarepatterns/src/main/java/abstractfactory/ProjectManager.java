@@ -1,7 +1,5 @@
 package abstractfactory;
 
-public class ProjectManager {
-    public void manageProject() {
-        System.out.println("Project Manager manages project");
-    }
+public interface ProjectManager {
+    void manageProject();
 }
