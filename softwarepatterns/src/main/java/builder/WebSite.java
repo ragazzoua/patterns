@@ -2,14 +2,14 @@ package builder;
 
 public class WebSite {
     private String name;
-    private String cms;
+    private Cms cms;
     private int price;
 
     public void setName(String name) {
         this.name = name;
     }
 
-    public void setCms(String cms) {
+    public void setCms(Cms cms) {
         this.cms = cms;
     }
 
@@ -21,7 +21,7 @@ public class WebSite {
     public String toString() {
         return "WebSite{" +
                 "name='" + name + '\'' +
-                ", cms='" + cms + '\'' +
+                ", cms=" + cms +
                 ", price=" + price +
                 '}';
     }
