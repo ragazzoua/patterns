@@ -5,7 +5,7 @@ import abstractfactory.ProjectManager;
 import abstractfactory.ProjectTeamFactory;
 import abstractfactory.Tester;
 
-public class BankingTeamfactory implements ProjectTeamFactory {
+public class BankingTeamFactory implements ProjectTeamFactory {
     public Developer getDeveloper() {
         return new JavaDeveloper();
     }
